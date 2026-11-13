@@ -1,0 +1,110 @@
+{
+  "papers/R2 - Building energy simulation calibration accuracy and modelling complexity-Implications for energy performance improvement (Peinturier  Wallom, 2025) (1).md": {
+    "mtime": 1794479984.1745074,
+    "seen": 1794481029.003601,
+    "ast_hash": "837be0255206db0c16afe22c781323bf",
+    "semantic_hash": "837be0255206db0c16afe22c781323bf"
+  },
+  "papers/R3 - A high-performance multi-scale modular-based green design studio platform for building and urban environmental quality and energy simulations (Li et al., 2025).md": {
+    "mtime": 1794480119.6920142,
+    "seen": 1794481029.003601,
+    "ast_hash": "60ddc6bac33bb638635c9ab73a6e46ed",
+    "semantic_hash": "60ddc6bac33bb638635c9ab73a6e46ed"
+  },
+  "papers/R4 - Optimizing daylighting performance and energy efficiency through the integration of parametric split louvers in office buildings (Alsukkar et al., 2025).md": {
+    "mtime": 1794480152.927469,
+    "seen": 1794481029.003601,
+    "ast_hash": "23a162bffecc93aba1a0e38631e7ea17",
+    "semantic_hash": "23a162bffecc93aba1a0e38631e7ea17"
+  },
+  "papers/R5 - Thermal comfort and perceived indoor air quality optimization with respect to occupant behaviour in naturally ventilated school buildings (Neves et al., 2025) (1).md": {
+    "mtime": 1794480207.8403542,
+    "seen": 1794481029.003601,
+    "ast_hash": "a22cc7f5a429543f3f9db4608e327558",
+    "semantic_hash": "a22cc7f5a429543f3f9db4608e327558"
+  },
+  "assignments/1st Assignment (1).md": {
+    "mtime": 1794479371.9918165,
+    "seen": 1794481077.1812677,
+    "ast_hash": "e2db9bf271ae5f69de3f3892e2f7f5ba",
+    "semantic_hash": "e2db9bf271ae5f69de3f3892e2f7f5ba"
+  },
+  "gh_summary.md": {
+    "mtime": 1794478448.9468305,
+    "seen": 1794481077.1812677,
+    "ast_hash": "340663ad92911726c85cdd75a26925e2",
+    "semantic_hash": "340663ad92911726c85cdd75a26925e2"
+  },
+  "lectrues/1 - Introduction (Simulations in the AEC Industry).md": {
+    "mtime": 1794479497.515463,
+    "seen": 1794481077.1812677,
+    "ast_hash": "86e484e9b24fb7c2dcda23f1e95ae83e",
+    "semantic_hash": "86e484e9b24fb7c2dcda23f1e95ae83e"
+  },
+  "lectrues/1 - Project Introduction.md": {
+    "mtime": 1794479531.6928854,
+    "seen": 1794481077.1812677,
+    "ast_hash": "99097c9390fb76394a99b8beb9cead4a",
+    "semantic_hash": "99097c9390fb76394a99b8beb9cead4a"
+  },
+  "lectrues/2 - Theoretical foundations of simulation techniques.md": {
+    "mtime": 1794479623.9839838,
+    "seen": 1794481077.1812677,
+    "ast_hash": "ae3a9dc4d1262c4aba0c7e21025a40bb",
+    "semantic_hash": "ae3a9dc4d1262c4aba0c7e21025a40bb"
+  },
+  "papers/R1 - Information modelling for urban building energy simulation-A taxonomic review (Malhotra et al., 2022) (1).md": {
+    "mtime": 1794479839.2031217,
+    "seen": 1794481077.1812677,
+    "ast_hash": "77227216f097516a94d1c1d442e38042",
+    "semantic_hash": "77227216f097516a94d1c1d442e38042"
+  },
+  "papers/R10 - Simulation as a decision-support tool in construction project management-Simphony-Dynamic-as-a-Service (Rafid et al., 2025).md": {
+    "mtime": 1794479883.900654,
+    "seen": 1794481077.1812677,
+    "ast_hash": "36b4f47b688cee042518aaceb1a29b3f",
+    "semantic_hash": "36b4f47b688cee042518aaceb1a29b3f"
+  },
+  "papers/R6 - A computational approach to assess the effects of ecological building envelopes on outdoor thermal comfort (Mosca et al., 2025) (1).md": {
+    "mtime": 1794480283.139113,
+    "seen": 1794481077.1812677,
+    "ast_hash": "61c5d6aca3edaaa9da73371a99c022ce",
+    "semantic_hash": "61c5d6aca3edaaa9da73371a99c022ce"
+  },
+  "papers/R7- Predictive modeling of building energy consumption and thermal comfort for decarbonization in construction and retrofitting (Algburi et al., 2025).md": {
+    "mtime": 1794480441.5809684,
+    "seen": 1794481077.1812677,
+    "ast_hash": "45aa6bdbd16185b5ff24fa57673864ee",
+    "semantic_hash": "45aa6bdbd16185b5ff24fa57673864ee"
+  },
+  "papers/R8 - How close are urban scale building simulations to measured data (Bass et al., 2022).md": {
+    "mtime": 1794480492.8616593,
+    "seen": 1794481077.1812677,
+    "ast_hash": "b0c45d1e841fca5a6d9a345d9a6d5c22",
+    "semantic_hash": "b0c45d1e841fca5a6d9a345d9a6d5c22"
+  },
+  "papers/R9 - Digital twin representation of socio\u2011technical systems through a distributed co\u2011simulation approach for crisis management (Martini et al., 2025).md": {
+    "mtime": 1794480546.1064906,
+    "seen": 1794481077.1812677,
+    "ast_hash": "3514a3180badb701752893aa2957dd74",
+    "semantic_hash": "3514a3180badb701752893aa2957dd74"
+  },
+  "lectrues/1 - Teaching philosophy.md": {
+    "mtime": 1794479562.7013314,
+    "seen": 1794481113.9129395,
+    "ast_hash": "117e33238c7fed772815e4186d12a678",
+    "semantic_hash": "117e33238c7fed772815e4186d12a678"
+  },
+  "lectrues/3 - Building performance simulation (part 1- energy).md": {
+    "mtime": 1794479697.6718335,
+    "seen": 1794481113.9129395,
+    "ast_hash": "108658c6af20f15650eae54758fbca82",
+    "semantic_hash": "108658c6af20f15650eae54758fbca82"
+  },
+  "lectrues/5 - Quantification of building performance indicators (energy, solar, daylight).md": {
+    "mtime": 1794479743.2536113,
+    "seen": 1794481113.9129395,
+    "ast_hash": "33cb2389f18f5c5be718bf4de0580240",
+    "semantic_hash": "33cb2389f18f5c5be718bf4de0580240"
+  }
+}

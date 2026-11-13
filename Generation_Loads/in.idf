@@ -1,0 +1,1993 @@
+Version,
+ 23.2.0;                   !- version identifier
+
+!-   ==========================================
+!-   =========  SIMULATION PARAMETERS =========
+!-   ==========================================
+
+
+OutputControl:Table:Style,
+ Comma,                    !- column separator
+ None;                     !- unit conversion
+
+Output:Variable,
+ *,                        !- key value
+ Facility Net Purchased Electricity Energy, !- name
+ Hourly;                   !- frequency
+
+Output:Variable,
+ *,                        !- key value
+ Facility Total Produced Electricity Energy, !- name
+ Hourly;                   !- frequency
+
+Output:Variable,
+ *,                        !- key value
+ Generator Produced DC Electricity Energy, !- name
+ Hourly;                   !- frequency
+
+Output:Table:SummaryReports,
+ AllSummary;               !- report 0
+
+Output:SQLite,
+ SimpleAndTabular;         !- option type
+
+Output:VariableDictionary,
+ IDF,                      !- key field
+ Unsorted;                 !- sort option
+
+OutputControl:ReportingTolerances,
+ 1.11,                     !- heating unmet setpoint tolerance
+ 1.11;                     !- cooling unmet setpoint tolerance
+
+SimulationControl,
+ No,                       !- do zone sizing
+ No,                       !- do system sizing
+ No,                       !- do plant sizing
+ No,                       !- run for sizing periods
+ Yes;                      !- run for run periods
+
+ShadowCalculation,
+ PolygonClipping,          !- calculation method
+ Periodic,                 !- calculation update method
+ 30,                       !- calculation frequency
+ 15000;                    !- maximum figures
+
+Timestep,
+ 6;                        !- timesteps per hour
+
+RunPeriod,
+ CustomRunPeriod,          !- name
+ 1,                        !- start month
+ 1,                        !- start day
+ 2017,                     !- start year
+ 12,                       !- end month
+ 31,                       !- end day
+ 2017,                     !- end year
+ Sunday,                   !- start day of week
+ No,                       !- use weather file holidays
+ No,                       !- use weather file daylight savings
+ No,                       !- apply weekend holiday
+ Yes,                      !- use epw rain
+ Yes;                      !- use epw snow
+
+Sizing:Parameters,
+ 1.25,                     !- heating factor
+ 1.15;                     !- cooling factor
+
+GlobalGeometryRules,
+ UpperLeftCorner,          !- starting vertex position
+ Counterclockwise,         !- vertex entry direction
+ Relative;                 !- coordinate system
+
+Building,
+ Building,                 !- name
+ 0.0,                      !- clockwise north axis
+ City,                     !- terrain
+ ,                         !- loads convergence tolerance
+ ,                         !- temperature convergence tolerance
+ FullExteriorWithReflections; !- solar distribution
+
+Site:WaterMainsTemperature,
+ CorrelationFromWeatherFile; !- calculation method
+
+!-   =======================================
+!-   ================ MODEL ================
+!-   =======================================
+
+
+!-   ========= SCHEDULE TYPE LIMITS =========
+
+
+!-   ============== SCHEDULES ==============
+
+
+Schedule:Constant,
+ Always On,                !- schedule name
+ Fractional,               !- schedule type limits
+ 1.0;                      !- value
+
+!-   ============== MATERIALS ==============
+
+
+Material,
+ Generic Roof Membrane,    !- name
+ MediumRough,              !- roughness
+ 0.01,                     !- thickness {m}
+ 0.16,                     !- conductivity {W/m-K}
+ 1120.0,                   !- density {kg/m3}
+ 1460.0,                   !- specific heat {J/kg-K}
+ 0.9,                      !- thermal absorptance
+ 0.65,                     !- solar absorptance
+ 0.65;                     !- visible absorptance
+
+Material,
+ Generic HW Concrete,      !- name
+ MediumRough,              !- roughness
+ 0.2,                      !- thickness {m}
+ 1.95,                     !- conductivity {W/m-K}
+ 2240.0,                   !- density {kg/m3}
+ 900.0,                    !- specific heat {J/kg-K}
+ 0.9,                      !- thermal absorptance
+ 0.8,                      !- solar absorptance
+ 0.8;                      !- visible absorptance
+
+Material,
+ Generic 25mm Insulation,  !- name
+ MediumRough,              !- roughness
+ 0.025,                    !- thickness {m}
+ 0.03,                     !- conductivity {W/m-K}
+ 43.0,                     !- density {kg/m3}
+ 1210.0,                   !- specific heat {J/kg-K}
+ 0.9,                      !- thermal absorptance
+ 0.7,                      !- solar absorptance
+ 0.7;                      !- visible absorptance
+
+Material,
+ Generic Brick,            !- name
+ MediumRough,              !- roughness
+ 0.1,                      !- thickness {m}
+ 0.9,                      !- conductivity {W/m-K}
+ 1920.0,                   !- density {kg/m3}
+ 790.0,                    !- specific heat {J/kg-K}
+ 0.9,                      !- thermal absorptance
+ 0.65,                     !- solar absorptance
+ 0.65;                     !- visible absorptance
+
+WindowMaterial:Gas,
+ Generic Window Air Gap,   !- name
+ Air,                      !- gas type
+ 0.0127;                   !- thickness {m}
+
+Material,
+ Generic Acoustic Tile,    !- name
+ MediumSmooth,             !- roughness
+ 0.02,                     !- thickness {m}
+ 0.06,                     !- conductivity {W/m-K}
+ 368.0,                    !- density {kg/m3}
+ 590.0,                    !- specific heat {J/kg-K}
+ 0.9,                      !- thermal absorptance
+ 0.2,                      !- solar absorptance
+ 0.2;                      !- visible absorptance
+
+Material,
+ Generic 50mm Insulation,  !- name
+ MediumRough,              !- roughness
+ 0.05,                     !- thickness {m}
+ 0.03,                     !- conductivity {W/m-K}
+ 43.0,                     !- density {kg/m3}
+ 1210.0,                   !- specific heat {J/kg-K}
+ 0.9,                      !- thermal absorptance
+ 0.7,                      !- solar absorptance
+ 0.7;                      !- visible absorptance
+
+Material,
+ Generic 25mm Wood,        !- name
+ MediumSmooth,             !- roughness
+ 0.0254,                   !- thickness {m}
+ 0.15,                     !- conductivity {W/m-K}
+ 608.0,                    !- density {kg/m3}
+ 1630.0,                   !- specific heat {J/kg-K}
+ 0.9,                      !- thermal absorptance
+ 0.5,                      !- solar absorptance
+ 0.5;                      !- visible absorptance
+
+Material,
+ Generic Gypsum Board,     !- name
+ MediumSmooth,             !- roughness
+ 0.0127,                   !- thickness {m}
+ 0.16,                     !- conductivity {W/m-K}
+ 800.0,                    !- density {kg/m3}
+ 1090.0,                   !- specific heat {J/kg-K}
+ 0.9,                      !- thermal absorptance
+ 0.5,                      !- solar absorptance
+ 0.5;                      !- visible absorptance
+
+Material,
+ Generic Wall Air Gap,     !- name
+ Smooth,                   !- roughness
+ 0.1,                      !- thickness {m}
+ 0.667,                    !- conductivity {W/m-K}
+ 1.28,                     !- density {kg/m3}
+ 1000.0,                   !- specific heat {J/kg-K}
+ 0.9,                      !- thermal absorptance
+ 0.7,                      !- solar absorptance
+ 0.7;                      !- visible absorptance
+
+WindowMaterial:Glazing,
+ Generic Clear Glass,      !- name
+ SpectralAverage,          !- optical data type
+ ,                         !- spectral data set name
+ 0.006,                    !- thickness {m}
+ 0.77,                     !- solar transmittance
+ 0.07,                     !- solar reflectance front
+ 0.07,                     !- solar reflectance back
+ 0.88,                     !- visible transmittance
+ 0.08,                     !- visible reflectance front
+ 0.08,                     !- visible reflectance back
+ 0.0,                      !- infrared_transmittance
+ 0.84,                     !- emissivity front
+ 0.84,                     !- emissivity back
+ 1.0,                      !- conductivity {W/m-K}
+ 1.0,                      !- dirt correction factor
+ No;                       !- solar diffusing
+
+Material,
+ Generic LW Concrete,      !- name
+ MediumRough,              !- roughness
+ 0.1,                      !- thickness {m}
+ 0.53,                     !- conductivity {W/m-K}
+ 1280.0,                   !- density {kg/m3}
+ 840.0,                    !- specific heat {J/kg-K}
+ 0.9,                      !- thermal absorptance
+ 0.8,                      !- solar absorptance
+ 0.8;                      !- visible absorptance
+
+Material,
+ Generic Painted Metal,    !- name
+ Smooth,                   !- roughness
+ 0.0015,                   !- thickness {m}
+ 45.0,                     !- conductivity {W/m-K}
+ 7690.0,                   !- density {kg/m3}
+ 410.0,                    !- specific heat {J/kg-K}
+ 0.9,                      !- thermal absorptance
+ 0.5,                      !- solar absorptance
+ 0.5;                      !- visible absorptance
+
+Material,
+ Generic Ceiling Air Gap,  !- name
+ Smooth,                   !- roughness
+ 0.1,                      !- thickness {m}
+ 0.556,                    !- conductivity {W/m-K}
+ 1.28,                     !- density {kg/m3}
+ 1000.0,                   !- specific heat {J/kg-K}
+ 0.9,                      !- thermal absorptance
+ 0.7,                      !- solar absorptance
+ 0.7;                      !- visible absorptance
+
+WindowMaterial:Glazing,
+ Generic Low-e Glass,      !- name
+ SpectralAverage,          !- optical data type
+ ,                         !- spectral data set name
+ 0.006,                    !- thickness {m}
+ 0.45,                     !- solar transmittance
+ 0.36,                     !- solar reflectance front
+ 0.36,                     !- solar reflectance back
+ 0.71,                     !- visible transmittance
+ 0.21,                     !- visible reflectance front
+ 0.21,                     !- visible reflectance back
+ 0.0,                      !- infrared_transmittance
+ 0.84,                     !- emissivity front
+ 0.047,                    !- emissivity back
+ 1.0,                      !- conductivity {W/m-K}
+ 1.0,                      !- dirt correction factor
+ No;                       !- solar diffusing
+
+Material,
+ Mud,                      !- name
+ MediumRough,              !- roughness
+ 0.2,                      !- thickness {m}
+ 1.4,                      !- conductivity {W/m-K}
+ 1840.0,                   !- density {kg/m3}
+ 1480.0,                   !- specific heat {J/kg-K}
+ 0.95,                     !- thermal absorptance
+ 0.8,                      !- solar absorptance
+ 0.8;                      !- visible absorptance
+
+!-   ============ CONSTRUCTIONS ============
+
+
+Construction,
+ Mud,                      !- name
+ Mud;                      !- layer 1
+
+Construction,
+ Generic Interior Wall,    !- name
+ Generic Gypsum Board,     !- layer 1
+ Generic Wall Air Gap,     !- layer 2
+ Generic Gypsum Board;     !- layer 3
+
+Construction,
+ Generic Roof,             !- name
+ Generic Roof Membrane,    !- layer 1
+ Generic 50mm Insulation,  !- layer 2
+ Generic LW Concrete,      !- layer 3
+ Generic Ceiling Air Gap,  !- layer 4
+ Generic Acoustic Tile;    !- layer 5
+
+Construction,
+ Generic Exterior Wall,    !- name
+ Generic Brick,            !- layer 1
+ Generic LW Concrete,      !- layer 2
+ Generic 50mm Insulation,  !- layer 3
+ Generic Wall Air Gap,     !- layer 4
+ Generic Gypsum Board;     !- layer 5
+
+Construction,
+ Generic Double Pane,      !- name
+ Generic Low-e Glass,      !- layer 1
+ Generic Window Air Gap,   !- layer 2
+ Generic Clear Glass;      !- layer 3
+
+Construction,
+ Generic Underground Roof, !- name
+ Generic 50mm Insulation,  !- layer 1
+ Generic HW Concrete,      !- layer 2
+ Generic Ceiling Air Gap,  !- layer 3
+ Generic Acoustic Tile;    !- layer 4
+
+Construction,
+ Generic Exposed Floor,    !- name
+ Generic Painted Metal,    !- layer 1
+ Generic Ceiling Air Gap,  !- layer 2
+ Generic 50mm Insulation,  !- layer 3
+ Generic LW Concrete;      !- layer 4
+
+Construction,
+ Generic Exterior Door,    !- name
+ Generic Painted Metal,    !- layer 1
+ Generic 25mm Insulation,  !- layer 2
+ Generic Painted Metal;    !- layer 3
+
+Construction,
+ Generic Underground Wall, !- name
+ Generic 50mm Insulation,  !- layer 1
+ Generic HW Concrete,      !- layer 2
+ Generic Wall Air Gap,     !- layer 3
+ Generic Gypsum Board;     !- layer 4
+
+Construction,
+ Generic Interior Ceiling, !- name
+ Generic LW Concrete,      !- layer 1
+ Generic Ceiling Air Gap,  !- layer 2
+ Generic Acoustic Tile;    !- layer 3
+
+Construction,
+ Generic Interior Floor,   !- name
+ Generic Acoustic Tile,    !- layer 1
+ Generic Ceiling Air Gap,  !- layer 2
+ Generic LW Concrete;      !- layer 3
+
+Construction,
+ Generic Ground Slab,      !- name
+ Generic 50mm Insulation,  !- layer 1
+ Generic HW Concrete;      !- layer 2
+
+Construction,
+ Generic Single Pane,      !- name
+ Generic Clear Glass;      !- layer 1
+
+Construction,
+ Generic Interior Door,    !- name
+ Generic 25mm Wood;        !- layer 1
+
+Construction:AirBoundary,
+ Generic Air Boundary,     !- construction name
+ None;                     !- air exchange method
+
+!-   ============ HVAC SYSTEMS ============
+
+
+!-   ============ ROOM GEOMETRY ============
+
+
+!-   ________ZONE:Ground_Room________
+
+
+Zone,
+ Ground_Room,              !- name
+ ,                         !- north
+ ,                         !- x
+ ,                         !- y
+ ,                         !- z
+ ,                         !- type
+ 1,                        !- multiplier
+ 1.0,                      !- ceiling height
+ 24000000.0,               !- volume
+ 24000000.0,               !- floor area
+ ,                         !- inside convection
+ ,                         !- outside convection
+ No;                       !- include floor area
+
+BuildingSurface:Detailed,
+ Ground_Room_Bottom,       !- name
+ Floor,                    !- surface type
+ Mud,                      !- construction name
+ Ground_Room,              !- zone name
+ ,                         !- space name
+ Ground,                   !- boundary condition
+ ,                         !- boundary condition object
+ NoSun,                    !- sun exposure
+ NoWind,                   !- wind exposure
+ autocalculate,            !- view factor to ground
+ 4,                        !- number of vertices
+ 4000.000, 6000.000, -1.000,
+ 4000.000, 0.000, -1.000,
+ 0.000, 0.000, -1.000,
+ 0.000, 6000.000, -1.000;
+
+BuildingSurface:Detailed,
+ Ground_Room_Front,        !- name
+ Wall,                     !- surface type
+ Mud,                      !- construction name
+ Ground_Room,              !- zone name
+ ,                         !- space name
+ Ground,                   !- boundary condition
+ ,                         !- boundary condition object
+ NoSun,                    !- sun exposure
+ NoWind,                   !- wind exposure
+ autocalculate,            !- view factor to ground
+ 4,                        !- number of vertices
+ 4000.000, 6000.000, 0.000,
+ 4000.000, 6000.000, -1.000,
+ 0.000, 6000.000, -1.000,
+ 0.000, 6000.000, 0.000;
+
+BuildingSurface:Detailed,
+ Ground_Room_Right,        !- name
+ Wall,                     !- surface type
+ Mud,                      !- construction name
+ Ground_Room,              !- zone name
+ ,                         !- space name
+ Ground,                   !- boundary condition
+ ,                         !- boundary condition object
+ NoSun,                    !- sun exposure
+ NoWind,                   !- wind exposure
+ autocalculate,            !- view factor to ground
+ 4,                        !- number of vertices
+ 4000.000, 0.000, 0.000,
+ 4000.000, 0.000, -1.000,
+ 4000.000, 6000.000, -1.000,
+ 4000.000, 6000.000, 0.000;
+
+BuildingSurface:Detailed,
+ Ground_Room_Back,         !- name
+ Wall,                     !- surface type
+ Mud,                      !- construction name
+ Ground_Room,              !- zone name
+ ,                         !- space name
+ Ground,                   !- boundary condition
+ ,                         !- boundary condition object
+ NoSun,                    !- sun exposure
+ NoWind,                   !- wind exposure
+ autocalculate,            !- view factor to ground
+ 4,                        !- number of vertices
+ 0.000, 0.000, 0.000,
+ 0.000, 0.000, -1.000,
+ 4000.000, 0.000, -1.000,
+ 4000.000, 0.000, 0.000;
+
+BuildingSurface:Detailed,
+ Ground_Room_Left,         !- name
+ Wall,                     !- surface type
+ Mud,                      !- construction name
+ Ground_Room,              !- zone name
+ ,                         !- space name
+ Ground,                   !- boundary condition
+ ,                         !- boundary condition object
+ NoSun,                    !- sun exposure
+ NoWind,                   !- wind exposure
+ autocalculate,            !- view factor to ground
+ 4,                        !- number of vertices
+ 0.000, 6000.000, 0.000,
+ 0.000, 6000.000, -1.000,
+ 0.000, 0.000, -1.000,
+ 0.000, 0.000, 0.000;
+
+BuildingSurface:Detailed,
+ Ground_Room_Top,          !- name
+ Roof,                     !- surface type
+ Mud,                      !- construction name
+ Ground_Room,              !- zone name
+ ,                         !- space name
+ Outdoors,                 !- boundary condition
+ ,                         !- boundary condition object
+ SunExposed,               !- sun exposure
+ WindExposed,              !- wind exposure
+ Autocalculate,            !- view factor to ground
+ 4,                        !- number of vertices
+ 0.000, 6000.000, 0.000,
+ 0.000, 0.000, 0.000,
+ 4000.000, 0.000, 0.000,
+ 4000.000, 6000.000, 0.000;
+
+!-   ========== CONTEXT GEOMETRY ==========
+
+
+Shading:Building:Detailed,
+ Shade_1f29caf2,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 900.000, 0.000, 3200.000,
+ 900.000, 0.000, 100.000,
+ 1000.000, 0.000, 0.000,
+ 1000.000, 0.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_57e3f313,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 100.000, 0.000, 100.000,
+ 0.000, 0.000, 0.000,
+ 1000.000, 0.000, 0.000,
+ 900.000, 0.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_21e6fe8f,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 0.000, 3300.000,
+ 0.000, 0.000, 0.000,
+ 100.000, 0.000, 100.000,
+ 100.000, 0.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_77d664d8,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 0.000, 3300.000,
+ 100.000, 0.000, 3200.000,
+ 900.000, 0.000, 3200.000,
+ 1000.000, 0.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_ff080637,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 900.000, 0.000, 3200.000,
+ 900.000, 0.000, 1000.000,
+ 100.000, 0.000, 1000.000,
+ 100.000, 0.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_e108c1ea,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 900.000, 0.000, 1000.000,
+ 900.000, 0.000, 100.000,
+ 100.000, 0.000, 100.000,
+ 100.000, 0.000, 1000.000;
+
+Shading:Building:Detailed,
+ Shade_521d048c,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 6000.000, 0.000,
+ 0.000, 0.000, 0.000,
+ 4000.000, 0.000, 0.000,
+ 4000.000, 6000.000, 0.000;
+
+Shading:Building:Detailed,
+ Shade_9b3e4a02,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 6000.000, 3300.000,
+ 0.000, 0.000, 3300.000,
+ 4000.000, 0.000, 3300.000,
+ 4000.000, 6000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_5c36b18c,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 1900.000, 0.000, 3200.000,
+ 1900.000, 0.000, 100.000,
+ 2000.000, 0.000, 0.000,
+ 2000.000, 0.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_a5a574a9,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 1100.000, 0.000, 100.000,
+ 1000.000, 0.000, 0.000,
+ 2000.000, 0.000, 0.000,
+ 1900.000, 0.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_030add62,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 1000.000, 0.000, 3300.000,
+ 1000.000, 0.000, 0.000,
+ 1100.000, 0.000, 100.000,
+ 1100.000, 0.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_11f11149,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 1000.000, 0.000, 3300.000,
+ 1100.000, 0.000, 3200.000,
+ 1900.000, 0.000, 3200.000,
+ 2000.000, 0.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_2df02684,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 1900.000, 0.000, 3200.000,
+ 1900.000, 0.000, 1000.000,
+ 1100.000, 0.000, 1000.000,
+ 1100.000, 0.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_18b99aaa,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 1900.000, 0.000, 1000.000,
+ 1900.000, 0.000, 100.000,
+ 1100.000, 0.000, 100.000,
+ 1100.000, 0.000, 1000.000;
+
+Shading:Building:Detailed,
+ Shade_709903e9,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 2900.000, 0.000, 3200.000,
+ 2900.000, 0.000, 100.000,
+ 3000.000, 0.000, 0.000,
+ 3000.000, 0.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_2d38b2ec,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 2100.000, 0.000, 100.000,
+ 2000.000, 0.000, 0.000,
+ 3000.000, 0.000, 0.000,
+ 2900.000, 0.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_b5dfb87f,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 2000.000, 0.000, 3300.000,
+ 2000.000, 0.000, 0.000,
+ 2100.000, 0.000, 100.000,
+ 2100.000, 0.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_50bfead5,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 2000.000, 0.000, 3300.000,
+ 2100.000, 0.000, 3200.000,
+ 2900.000, 0.000, 3200.000,
+ 3000.000, 0.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_204a2ddc,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 2900.000, 0.000, 3200.000,
+ 2900.000, 0.000, 1000.000,
+ 2100.000, 0.000, 1000.000,
+ 2100.000, 0.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_e0b10e4d,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 2900.000, 0.000, 1000.000,
+ 2900.000, 0.000, 100.000,
+ 2100.000, 0.000, 100.000,
+ 2100.000, 0.000, 1000.000;
+
+Shading:Building:Detailed,
+ Shade_0a9516b3,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 3900.000, 0.000, 3200.000,
+ 3900.000, 0.000, 100.000,
+ 4000.000, 0.000, 0.000,
+ 4000.000, 0.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_9115441a,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 3100.000, 0.000, 100.000,
+ 3000.000, 0.000, 0.000,
+ 4000.000, 0.000, 0.000,
+ 3900.000, 0.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_7496e022,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 3000.000, 0.000, 3300.000,
+ 3000.000, 0.000, 0.000,
+ 3100.000, 0.000, 100.000,
+ 3100.000, 0.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_e6944f53,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 3000.000, 0.000, 3300.000,
+ 3100.000, 0.000, 3200.000,
+ 3900.000, 0.000, 3200.000,
+ 4000.000, 0.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_75e40b14,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 3900.000, 0.000, 3200.000,
+ 3900.000, 0.000, 1000.000,
+ 3100.000, 0.000, 1000.000,
+ 3100.000, 0.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_d13816da,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 3900.000, 0.000, 1000.000,
+ 3900.000, 0.000, 100.000,
+ 3100.000, 0.000, 100.000,
+ 3100.000, 0.000, 1000.000;
+
+Shading:Building:Detailed,
+ Shade_259ed62d,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 900.000, 3200.000,
+ 4000.000, 900.000, 100.000,
+ 4000.000, 1000.000, 0.000,
+ 4000.000, 1000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_56c2c2dd,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 100.000, 100.000,
+ 4000.000, 0.000, 0.000,
+ 4000.000, 1000.000, 0.000,
+ 4000.000, 900.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_c5fe2e23,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 0.000, 3300.000,
+ 4000.000, 0.000, 0.000,
+ 4000.000, 100.000, 100.000,
+ 4000.000, 100.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_db59306d,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 0.000, 3300.000,
+ 4000.000, 100.000, 3200.000,
+ 4000.000, 900.000, 3200.000,
+ 4000.000, 1000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_437b3054,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 900.000, 3200.000,
+ 4000.000, 900.000, 1000.000,
+ 4000.000, 100.000, 1000.000,
+ 4000.000, 100.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_251c2d75,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 900.000, 1000.000,
+ 4000.000, 900.000, 100.000,
+ 4000.000, 100.000, 100.000,
+ 4000.000, 100.000, 1000.000;
+
+Shading:Building:Detailed,
+ Shade_051b60a3,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 1900.000, 3200.000,
+ 4000.000, 1900.000, 100.000,
+ 4000.000, 2000.000, 0.000,
+ 4000.000, 2000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_c2a2f2c9,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 1100.000, 100.000,
+ 4000.000, 1000.000, 0.000,
+ 4000.000, 2000.000, 0.000,
+ 4000.000, 1900.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_12317b08,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 1000.000, 3300.000,
+ 4000.000, 1000.000, 0.000,
+ 4000.000, 1100.000, 100.000,
+ 4000.000, 1100.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_f1200898,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 1000.000, 3300.000,
+ 4000.000, 1100.000, 3200.000,
+ 4000.000, 1900.000, 3200.000,
+ 4000.000, 2000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_5c74d878,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 1900.000, 3200.000,
+ 4000.000, 1900.000, 1000.000,
+ 4000.000, 1100.000, 1000.000,
+ 4000.000, 1100.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_cf675b23,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 1900.000, 1000.000,
+ 4000.000, 1900.000, 100.000,
+ 4000.000, 1100.000, 100.000,
+ 4000.000, 1100.000, 1000.000;
+
+Shading:Building:Detailed,
+ Shade_d864cd42,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 2900.000, 3200.000,
+ 4000.000, 2900.000, 100.000,
+ 4000.000, 3000.000, 0.000,
+ 4000.000, 3000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_c275fc27,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 2100.000, 100.000,
+ 4000.000, 2000.000, 0.000,
+ 4000.000, 3000.000, 0.000,
+ 4000.000, 2900.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_a51e69b2,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 2000.000, 3300.000,
+ 4000.000, 2000.000, 0.000,
+ 4000.000, 2100.000, 100.000,
+ 4000.000, 2100.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_9896813a,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 2000.000, 3300.000,
+ 4000.000, 2100.000, 3200.000,
+ 4000.000, 2900.000, 3200.000,
+ 4000.000, 3000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_2b380f2a,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 2900.000, 3200.000,
+ 4000.000, 2900.000, 1000.000,
+ 4000.000, 2100.000, 1000.000,
+ 4000.000, 2100.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_9c105fdd,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 2900.000, 1000.000,
+ 4000.000, 2900.000, 100.000,
+ 4000.000, 2100.000, 100.000,
+ 4000.000, 2100.000, 1000.000;
+
+Shading:Building:Detailed,
+ Shade_42a88f6c,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 3900.000, 3200.000,
+ 4000.000, 3900.000, 100.000,
+ 4000.000, 4000.000, 0.000,
+ 4000.000, 4000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_c77b3c2c,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 3100.000, 100.000,
+ 4000.000, 3000.000, 0.000,
+ 4000.000, 4000.000, 0.000,
+ 4000.000, 3900.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_233e5f4f,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 3000.000, 3300.000,
+ 4000.000, 3000.000, 0.000,
+ 4000.000, 3100.000, 100.000,
+ 4000.000, 3100.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_763644f0,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 3000.000, 3300.000,
+ 4000.000, 3100.000, 3200.000,
+ 4000.000, 3900.000, 3200.000,
+ 4000.000, 4000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_a14fb8e2,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 3900.000, 3200.000,
+ 4000.000, 3900.000, 1000.000,
+ 4000.000, 3100.000, 1000.000,
+ 4000.000, 3100.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_999f5b15,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 3900.000, 1000.000,
+ 4000.000, 3900.000, 100.000,
+ 4000.000, 3100.000, 100.000,
+ 4000.000, 3100.000, 1000.000;
+
+Shading:Building:Detailed,
+ Shade_17c59746,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 4900.000, 3200.000,
+ 4000.000, 4900.000, 100.000,
+ 4000.000, 5000.000, 0.000,
+ 4000.000, 5000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_3dccb974,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 4100.000, 100.000,
+ 4000.000, 4000.000, 0.000,
+ 4000.000, 5000.000, 0.000,
+ 4000.000, 4900.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_6bfcab26,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 4000.000, 3300.000,
+ 4000.000, 4000.000, 0.000,
+ 4000.000, 4100.000, 100.000,
+ 4000.000, 4100.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_8bd0a36f,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 4000.000, 3300.000,
+ 4000.000, 4100.000, 3200.000,
+ 4000.000, 4900.000, 3200.000,
+ 4000.000, 5000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_4d29cca9,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 4900.000, 3200.000,
+ 4000.000, 4900.000, 1000.000,
+ 4000.000, 4100.000, 1000.000,
+ 4000.000, 4100.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_f4324793,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 4900.000, 1000.000,
+ 4000.000, 4900.000, 100.000,
+ 4000.000, 4100.000, 100.000,
+ 4000.000, 4100.000, 1000.000;
+
+Shading:Building:Detailed,
+ Shade_d635b765,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 5900.000, 3200.000,
+ 4000.000, 5900.000, 100.000,
+ 4000.000, 6000.000, 0.000,
+ 4000.000, 6000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_b33c1dba,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 5100.000, 100.000,
+ 4000.000, 5000.000, 0.000,
+ 4000.000, 6000.000, 0.000,
+ 4000.000, 5900.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_f47c2626,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 5000.000, 3300.000,
+ 4000.000, 5000.000, 0.000,
+ 4000.000, 5100.000, 100.000,
+ 4000.000, 5100.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_6bd93a8f,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 5000.000, 3300.000,
+ 4000.000, 5100.000, 3200.000,
+ 4000.000, 5900.000, 3200.000,
+ 4000.000, 6000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_ce5b0d38,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 5900.000, 3200.000,
+ 4000.000, 5900.000, 1000.000,
+ 4000.000, 5100.000, 1000.000,
+ 4000.000, 5100.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_b756cbea,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 5900.000, 1000.000,
+ 4000.000, 5900.000, 100.000,
+ 4000.000, 5100.000, 100.000,
+ 4000.000, 5100.000, 1000.000;
+
+Shading:Building:Detailed,
+ Shade_e69c4385,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 3100.000, 6000.000, 3200.000,
+ 3100.000, 6000.000, 100.000,
+ 3000.000, 6000.000, 0.000,
+ 3000.000, 6000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_6861b003,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 3900.000, 6000.000, 100.000,
+ 4000.000, 6000.000, 0.000,
+ 3000.000, 6000.000, 0.000,
+ 3100.000, 6000.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_e1da1074,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 6000.000, 3300.000,
+ 4000.000, 6000.000, 0.000,
+ 3900.000, 6000.000, 100.000,
+ 3900.000, 6000.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_8b7afd0f,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 4000.000, 6000.000, 3300.000,
+ 3900.000, 6000.000, 3200.000,
+ 3100.000, 6000.000, 3200.000,
+ 3000.000, 6000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_5b57f8b1,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 3100.000, 6000.000, 3200.000,
+ 3100.000, 6000.000, 1000.000,
+ 3900.000, 6000.000, 1000.000,
+ 3900.000, 6000.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_d3c01ad7,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 3100.000, 6000.000, 1000.000,
+ 3100.000, 6000.000, 100.000,
+ 3900.000, 6000.000, 100.000,
+ 3900.000, 6000.000, 1000.000;
+
+Shading:Building:Detailed,
+ Shade_df0f03de,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 2100.000, 6000.000, 3200.000,
+ 2100.000, 6000.000, 100.000,
+ 2000.000, 6000.000, 0.000,
+ 2000.000, 6000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_e14425c3,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 2900.000, 6000.000, 100.000,
+ 3000.000, 6000.000, 0.000,
+ 2000.000, 6000.000, 0.000,
+ 2100.000, 6000.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_d1f9b9f1,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 3000.000, 6000.000, 3300.000,
+ 3000.000, 6000.000, 0.000,
+ 2900.000, 6000.000, 100.000,
+ 2900.000, 6000.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_577673bb,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 3000.000, 6000.000, 3300.000,
+ 2900.000, 6000.000, 3200.000,
+ 2100.000, 6000.000, 3200.000,
+ 2000.000, 6000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_fd85639e,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 2100.000, 6000.000, 3200.000,
+ 2100.000, 6000.000, 1000.000,
+ 2900.000, 6000.000, 1000.000,
+ 2900.000, 6000.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_b40d316f,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 2100.000, 6000.000, 1000.000,
+ 2100.000, 6000.000, 100.000,
+ 2900.000, 6000.000, 100.000,
+ 2900.000, 6000.000, 1000.000;
+
+Shading:Building:Detailed,
+ Shade_9da8d405,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 1100.000, 6000.000, 3200.000,
+ 1100.000, 6000.000, 100.000,
+ 1000.000, 6000.000, 0.000,
+ 1000.000, 6000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_4eb10e37,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 1900.000, 6000.000, 100.000,
+ 2000.000, 6000.000, 0.000,
+ 1000.000, 6000.000, 0.000,
+ 1100.000, 6000.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_76d7dfc0,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 2000.000, 6000.000, 3300.000,
+ 2000.000, 6000.000, 0.000,
+ 1900.000, 6000.000, 100.000,
+ 1900.000, 6000.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_88e42441,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 2000.000, 6000.000, 3300.000,
+ 1900.000, 6000.000, 3200.000,
+ 1100.000, 6000.000, 3200.000,
+ 1000.000, 6000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_93aa9855,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 1100.000, 6000.000, 3200.000,
+ 1100.000, 6000.000, 1000.000,
+ 1900.000, 6000.000, 1000.000,
+ 1900.000, 6000.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_b791807b,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 1100.000, 6000.000, 1000.000,
+ 1100.000, 6000.000, 100.000,
+ 1900.000, 6000.000, 100.000,
+ 1900.000, 6000.000, 1000.000;
+
+Shading:Building:Detailed,
+ Shade_0accdf9e,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 100.000, 6000.000, 3200.000,
+ 100.000, 6000.000, 100.000,
+ 0.000, 6000.000, 0.000,
+ 0.000, 6000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_4d1e8e49,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 900.000, 6000.000, 100.000,
+ 1000.000, 6000.000, 0.000,
+ 0.000, 6000.000, 0.000,
+ 100.000, 6000.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_d7f8e100,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 1000.000, 6000.000, 3300.000,
+ 1000.000, 6000.000, 0.000,
+ 900.000, 6000.000, 100.000,
+ 900.000, 6000.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_d1e30f3c,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 1000.000, 6000.000, 3300.000,
+ 900.000, 6000.000, 3200.000,
+ 100.000, 6000.000, 3200.000,
+ 0.000, 6000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_15ac69e7,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 100.000, 6000.000, 3200.000,
+ 100.000, 6000.000, 1000.000,
+ 900.000, 6000.000, 1000.000,
+ 900.000, 6000.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_13f81056,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 100.000, 6000.000, 1000.000,
+ 100.000, 6000.000, 100.000,
+ 900.000, 6000.000, 100.000,
+ 900.000, 6000.000, 1000.000;
+
+Shading:Building:Detailed,
+ Shade_a5090f4a,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 5100.000, 3200.000,
+ 0.000, 5100.000, 100.000,
+ 0.000, 5000.000, 0.000,
+ 0.000, 5000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_bf8240af,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 5900.000, 100.000,
+ 0.000, 6000.000, 0.000,
+ 0.000, 5000.000, 0.000,
+ 0.000, 5100.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_568700ad,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 6000.000, 3300.000,
+ 0.000, 6000.000, 0.000,
+ 0.000, 5900.000, 100.000,
+ 0.000, 5900.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_73e17cf8,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 6000.000, 3300.000,
+ 0.000, 5900.000, 3200.000,
+ 0.000, 5100.000, 3200.000,
+ 0.000, 5000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_9b449bb7,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 5100.000, 3200.000,
+ 0.000, 5100.000, 1000.000,
+ 0.000, 5900.000, 1000.000,
+ 0.000, 5900.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_74618145,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 5100.000, 1000.000,
+ 0.000, 5100.000, 100.000,
+ 0.000, 5900.000, 100.000,
+ 0.000, 5900.000, 1000.000;
+
+Shading:Building:Detailed,
+ Shade_5ef6cdaf,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 4100.000, 3200.000,
+ 0.000, 4100.000, 100.000,
+ 0.000, 4000.000, 0.000,
+ 0.000, 4000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_195ffea0,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 4900.000, 100.000,
+ 0.000, 5000.000, 0.000,
+ 0.000, 4000.000, 0.000,
+ 0.000, 4100.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_0a13484a,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 5000.000, 3300.000,
+ 0.000, 5000.000, 0.000,
+ 0.000, 4900.000, 100.000,
+ 0.000, 4900.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_6236557a,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 5000.000, 3300.000,
+ 0.000, 4900.000, 3200.000,
+ 0.000, 4100.000, 3200.000,
+ 0.000, 4000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_4adea119,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 4100.000, 3200.000,
+ 0.000, 4100.000, 1000.000,
+ 0.000, 4900.000, 1000.000,
+ 0.000, 4900.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_0ede36bd,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 4100.000, 1000.000,
+ 0.000, 4100.000, 100.000,
+ 0.000, 4900.000, 100.000,
+ 0.000, 4900.000, 1000.000;
+
+Shading:Building:Detailed,
+ Shade_9a859492,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 3100.000, 3200.000,
+ 0.000, 3100.000, 100.000,
+ 0.000, 3000.000, 0.000,
+ 0.000, 3000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_8e27a86d,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 3900.000, 100.000,
+ 0.000, 4000.000, 0.000,
+ 0.000, 3000.000, 0.000,
+ 0.000, 3100.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_c20a83d1,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 4000.000, 3300.000,
+ 0.000, 4000.000, 0.000,
+ 0.000, 3900.000, 100.000,
+ 0.000, 3900.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_8b20bb87,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 4000.000, 3300.000,
+ 0.000, 3900.000, 3200.000,
+ 0.000, 3100.000, 3200.000,
+ 0.000, 3000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_35901ef8,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 3100.000, 3200.000,
+ 0.000, 3100.000, 1000.000,
+ 0.000, 3900.000, 1000.000,
+ 0.000, 3900.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_823b8612,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 3100.000, 1000.000,
+ 0.000, 3100.000, 100.000,
+ 0.000, 3900.000, 100.000,
+ 0.000, 3900.000, 1000.000;
+
+Shading:Building:Detailed,
+ Shade_d6342de0,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 2100.000, 3200.000,
+ 0.000, 2100.000, 100.000,
+ 0.000, 2000.000, 0.000,
+ 0.000, 2000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_323af6c5,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 2900.000, 100.000,
+ 0.000, 3000.000, 0.000,
+ 0.000, 2000.000, 0.000,
+ 0.000, 2100.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_c2527852,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 3000.000, 3300.000,
+ 0.000, 3000.000, 0.000,
+ 0.000, 2900.000, 100.000,
+ 0.000, 2900.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_71bc7e88,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 3000.000, 3300.000,
+ 0.000, 2900.000, 3200.000,
+ 0.000, 2100.000, 3200.000,
+ 0.000, 2000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_04288551,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 2100.000, 3200.000,
+ 0.000, 2100.000, 1000.000,
+ 0.000, 2900.000, 1000.000,
+ 0.000, 2900.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_1bff9b40,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 2100.000, 1000.000,
+ 0.000, 2100.000, 100.000,
+ 0.000, 2900.000, 100.000,
+ 0.000, 2900.000, 1000.000;
+
+Shading:Building:Detailed,
+ Shade_780ac010,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 1100.000, 3200.000,
+ 0.000, 1100.000, 100.000,
+ 0.000, 1000.000, 0.000,
+ 0.000, 1000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_9049d858,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 1900.000, 100.000,
+ 0.000, 2000.000, 0.000,
+ 0.000, 1000.000, 0.000,
+ 0.000, 1100.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_2d45b964,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 2000.000, 3300.000,
+ 0.000, 2000.000, 0.000,
+ 0.000, 1900.000, 100.000,
+ 0.000, 1900.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_b875c0eb,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 2000.000, 3300.000,
+ 0.000, 1900.000, 3200.000,
+ 0.000, 1100.000, 3200.000,
+ 0.000, 1000.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_fb719bfe,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 1100.000, 3200.000,
+ 0.000, 1100.000, 1000.000,
+ 0.000, 1900.000, 1000.000,
+ 0.000, 1900.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_434e0662,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 1100.000, 1000.000,
+ 0.000, 1100.000, 100.000,
+ 0.000, 1900.000, 100.000,
+ 0.000, 1900.000, 1000.000;
+
+Shading:Building:Detailed,
+ Shade_7b56e121,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 100.000, 3200.000,
+ 0.000, 100.000, 100.000,
+ 0.000, 0.000, 0.000,
+ 0.000, 0.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_bad76d18,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 900.000, 100.000,
+ 0.000, 1000.000, 0.000,
+ 0.000, 0.000, 0.000,
+ 0.000, 100.000, 100.000;
+
+Shading:Building:Detailed,
+ Shade_01dbb4b3,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 1000.000, 3300.000,
+ 0.000, 1000.000, 0.000,
+ 0.000, 900.000, 100.000,
+ 0.000, 900.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_fe2b7c0b,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 1000.000, 3300.000,
+ 0.000, 900.000, 3200.000,
+ 0.000, 100.000, 3200.000,
+ 0.000, 0.000, 3300.000;
+
+Shading:Building:Detailed,
+ Shade_0cee5101,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 100.000, 3200.000,
+ 0.000, 100.000, 1000.000,
+ 0.000, 900.000, 1000.000,
+ 0.000, 900.000, 3200.000;
+
+Shading:Building:Detailed,
+ Shade_5855c41a,           !- name
+ ,                         !- transmittance schedule
+ 4,                        !- number of vertices
+ 0.000, 100.000, 1000.000,
+ 0.000, 100.000, 100.000,
+ 0.000, 900.000, 100.000,
+ 0.000, 900.000, 1000.000;
+
+!-   ========== PHOTOVOLTAIC GENERATORS ==========
+
+
+Generator:PVWatts,
+ Photovoltaic Array 1..Shade_e108c1ea, !- PV generator name
+ ,                         !- PVWatts version
+ 158400000,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_e108c1ea,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+Generator:PVWatts,
+ Photovoltaic Array 2..Shade_18b99aaa, !- PV generator name
+ ,                         !- PVWatts version
+ 158400000,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_18b99aaa,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+Generator:PVWatts,
+ Photovoltaic Array 3..Shade_e0b10e4d, !- PV generator name
+ ,                         !- PVWatts version
+ 158400000,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_e0b10e4d,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+Generator:PVWatts,
+ Photovoltaic Array 4..Shade_d13816da, !- PV generator name
+ ,                         !- PVWatts version
+ 158399999,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_d13816da,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+Generator:PVWatts,
+ Photovoltaic Array 5..Shade_251c2d75, !- PV generator name
+ ,                         !- PVWatts version
+ 158399999,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_251c2d75,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+Generator:PVWatts,
+ Photovoltaic Array 6..Shade_cf675b23, !- PV generator name
+ ,                         !- PVWatts version
+ 158400000,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_cf675b23,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+Generator:PVWatts,
+ Photovoltaic Array 7..Shade_9c105fdd, !- PV generator name
+ ,                         !- PVWatts version
+ 158399999,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_9c105fdd,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+Generator:PVWatts,
+ Photovoltaic Array 8..Shade_999f5b15, !- PV generator name
+ ,                         !- PVWatts version
+ 158399999,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_999f5b15,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+Generator:PVWatts,
+ Photovoltaic Array 9..Shade_f4324793, !- PV generator name
+ ,                         !- PVWatts version
+ 158400000,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_f4324793,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+Generator:PVWatts,
+ Photovoltaic Array 10..Shade_b756cbea, !- PV generator name
+ ,                         !- PVWatts version
+ 158400000,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_b756cbea,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+Generator:PVWatts,
+ Photovoltaic Array 11..Shade_d3c01ad7, !- PV generator name
+ ,                         !- PVWatts version
+ 158399999,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_d3c01ad7,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+Generator:PVWatts,
+ Photovoltaic Array 12..Shade_b40d316f, !- PV generator name
+ ,                         !- PVWatts version
+ 158400000,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_b40d316f,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+Generator:PVWatts,
+ Photovoltaic Array 13..Shade_b791807b, !- PV generator name
+ ,                         !- PVWatts version
+ 158400000,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_b791807b,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+Generator:PVWatts,
+ Photovoltaic Array 14..Shade_13f81056, !- PV generator name
+ ,                         !- PVWatts version
+ 158400000,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_13f81056,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+Generator:PVWatts,
+ Photovoltaic Array 15..Shade_74618145, !- PV generator name
+ ,                         !- PVWatts version
+ 158400000,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_74618145,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+Generator:PVWatts,
+ Photovoltaic Array 16..Shade_0ede36bd, !- PV generator name
+ ,                         !- PVWatts version
+ 158400000,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_0ede36bd,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+Generator:PVWatts,
+ Photovoltaic Array 17..Shade_823b8612, !- PV generator name
+ ,                         !- PVWatts version
+ 158400000,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_823b8612,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+Generator:PVWatts,
+ Photovoltaic Array 18..Shade_1bff9b40, !- PV generator name
+ ,                         !- PVWatts version
+ 158399999,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_1bff9b40,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+Generator:PVWatts,
+ Photovoltaic Array 19..Shade_434e0662, !- PV generator name
+ ,                         !- PVWatts version
+ 158400000,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_434e0662,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+Generator:PVWatts,
+ Photovoltaic Array 20..Shade_5855c41a, !- PV generator name
+ ,                         !- PVWatts version
+ 158399999,                !- DC system capacity {W}
+ Premium,                  !- module type
+ FixedRoofMounted,         !- array type
+ 0.05,                     !- system losses
+ Surface,                  !- array geometry type
+ ,                         !- tilt angle {deg}
+ ,                         !- azimuth angle {deg}
+ Shade_5855c41a,           !- surface name
+ 0.4;                      !- ground coverage ratio
+
+ElectricLoadCenter:Generators,
+ Model Load Center Generators, !- name
+ Photovoltaic Array 1..Shade_e108c1ea, !- generator 1 name
+ Generator:PVWatts,        !- generator 1 object type
+ ,                         !- power output
+ ,                         !- availability
+ ,                         !- thermal to electric
+ Photovoltaic Array 2..Shade_18b99aaa, !- generator 2 name
+ Generator:PVWatts,        !- generator 2 object type
+ ,                         !- power output
+ ,                         !- availability
+ ,                         !- thermal to electric
+ Photovoltaic Array 3..Shade_e0b10e4d, !- generator 3 name
+ Generator:PVWatts,        !- generator 3 object type
+ ,                         !- power output
+ ,                         !- availability
+ ,                         !- thermal to electric
+ Photovoltaic Array 4..Shade_d13816da, !- generator 4 name
+ Generator:PVWatts,        !- generator 4 object type
+ ,                         !- power output
+ ,                         !- availability
+ ,                         !- thermal to electric
+ Photovoltaic Array 5..Shade_251c2d75, !- generator 5 name
+ Generator:PVWatts,        !- generator 5 object type
+ ,                         !- power output
+ ,                         !- availability
+ ,                         !- thermal to electric
+ Photovoltaic Array 6..Shade_cf675b23, !- generator 6 name
+ Generator:PVWatts,        !- generator 6 object type
+ ,                         !- power output
+ ,                         !- availability
+ ,                         !- thermal to electric
+ Photovoltaic Array 7..Shade_9c105fdd, !- generator 7 name
+ Generator:PVWatts,        !- generator 7 object type
+ ,                         !- power output
+ ,                         !- availability
+ ,                         !- thermal to electric
+ Photovoltaic Array 8..Shade_999f5b15, !- generator 8 name
+ Generator:PVWatts,        !- generator 8 object type
+ ,                         !- power output
+ ,                         !- availability
+ ,                         !- thermal to electric
+ Photovoltaic Array 9..Shade_f4324793, !- generator 9 name
+ Generator:PVWatts,        !- generator 9 object type
+ ,                         !- power output
+ ,                         !- availability
+ ,                         !- thermal to electric
+ Photovoltaic Array 10..Shade_b756cbea, !- generator 10 name
+ Generator:PVWatts,        !- generator 10 object type
+ ,                         !- power output
+ ,                         !- availability
+ ,                         !- thermal to electric
+ Photovoltaic Array 11..Shade_d3c01ad7, !- generator 11 name
+ Generator:PVWatts,        !- generator 11 object type
+ ,                         !- power output
+ ,                         !- availability
+ ,                         !- thermal to electric
+ Photovoltaic Array 12..Shade_b40d316f, !- generator 12 name
+ Generator:PVWatts,        !- generator 12 object type
+ ,                         !- power output
+ ,                         !- availability
+ ,                         !- thermal to electric
+ Photovoltaic Array 13..Shade_b791807b, !- generator 13 name
+ Generator:PVWatts,        !- generator 13 object type
+ ,                         !- power output
+ ,                         !- availability
+ ,                         !- thermal to electric
+ Photovoltaic Array 14..Shade_13f81056, !- generator 14 name
+ Generator:PVWatts,        !- generator 14 object type
+ ,                         !- power output
+ ,                         !- availability
+ ,                         !- thermal to electric
+ Photovoltaic Array 15..Shade_74618145, !- generator 15 name
+ Generator:PVWatts,        !- generator 15 object type
+ ,                         !- power output
+ ,                         !- availability
+ ,                         !- thermal to electric
+ Photovoltaic Array 16..Shade_0ede36bd, !- generator 16 name
+ Generator:PVWatts,        !- generator 16 object type
+ ,                         !- power output
+ ,                         !- availability
+ ,                         !- thermal to electric
+ Photovoltaic Array 17..Shade_823b8612, !- generator 17 name
+ Generator:PVWatts,        !- generator 17 object type
+ ,                         !- power output
+ ,                         !- availability
+ ,                         !- thermal to electric
+ Photovoltaic Array 18..Shade_1bff9b40, !- generator 18 name
+ Generator:PVWatts,        !- generator 18 object type
+ ,                         !- power output
+ ,                         !- availability
+ ,                         !- thermal to electric
+ Photovoltaic Array 19..Shade_434e0662, !- generator 19 name
+ Generator:PVWatts,        !- generator 19 object type
+ ,                         !- power output
+ ,                         !- availability
+ ,                         !- thermal to electric
+ Photovoltaic Array 20..Shade_5855c41a, !- generator 20 name
+ Generator:PVWatts,        !- generator 20 object type
+ ,                         !- power output
+ ,                         !- availability
+ ;                         !- thermal to electric
+
+ElectricLoadCenter:Inverter:PVWatts,
+ Photovoltaic Inverter,    !- inverter name
+ 1.1,                      !- DC to AC size ratio
+ 0.96;                     !- inverter efficiency
+
+ElectricLoadCenter:Distribution,
+ Model Load Center Distribution, !- distribution name
+ Model Load Center Generators, !- generator list name
+ Baseload,                 !- generator operation type
+ ,                         !- purchased electric demand limit
+ ,                         !- track schedule
+ ,                         !- track meter
+ DirectCurrentWithInverter, !- electrical buss type
+ Photovoltaic Inverter;    !- inverter name

@@ -1,0 +1,324 @@
+
+ Meters for 7,GROUND_ROOM:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:GROUND_ROOM [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:GROUND_ROOM [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:GROUND_ROOM [J]
+
+ Meters for 92,GROUND_ROOM:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:GROUND_ROOM [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:GROUND_ROOM [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:GROUND_ROOM [J]
+
+ Meters for 141,PHOTOVOLTAIC ARRAY 1..SHADE_E108C1EA:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 178,PHOTOVOLTAIC ARRAY 2..SHADE_18B99AAA:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 179,PHOTOVOLTAIC ARRAY 3..SHADE_E0B10E4D:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 180,PHOTOVOLTAIC ARRAY 4..SHADE_D13816DA:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 181,PHOTOVOLTAIC ARRAY 5..SHADE_251C2D75:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 182,PHOTOVOLTAIC ARRAY 6..SHADE_CF675B23:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 183,PHOTOVOLTAIC ARRAY 7..SHADE_9C105FDD:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 184,PHOTOVOLTAIC ARRAY 8..SHADE_999F5B15:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 185,PHOTOVOLTAIC ARRAY 9..SHADE_F4324793:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 186,PHOTOVOLTAIC ARRAY 10..SHADE_B756CBEA:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 187,PHOTOVOLTAIC ARRAY 11..SHADE_D3C01AD7:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 188,PHOTOVOLTAIC ARRAY 12..SHADE_B40D316F:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 189,PHOTOVOLTAIC ARRAY 13..SHADE_B791807B:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 190,PHOTOVOLTAIC ARRAY 14..SHADE_13F81056:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 191,PHOTOVOLTAIC ARRAY 15..SHADE_74618145:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 192,PHOTOVOLTAIC ARRAY 16..SHADE_0EDE36BD:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 193,PHOTOVOLTAIC ARRAY 17..SHADE_823B8612:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 194,PHOTOVOLTAIC ARRAY 18..SHADE_1BFF9B40:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 195,PHOTOVOLTAIC ARRAY 19..SHADE_434E0662:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 196,PHOTOVOLTAIC ARRAY 20..SHADE_5855C41A:Generator Produced DC Electricity Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=Photovoltaic:ElectricityProduced [J]
+
+ Meters for 197,PHOTOVOLTAIC INVERTER:Inverter Conversion Loss Decrement Energy [J]
+  OnMeter=ElectricityProduced:Facility [J]
+  OnMeter=ElectricityProduced:Plant [J]
+  OnMeter=PowerConversion:ElectricityProduced [J]
+
+ Meters for 210,PHOTOVOLTAIC INVERTER:Inverter Ancillary AC Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Plant [J]
+  OnMeter=Cogeneration:Electricity [J]
+  OnMeter=DCtoACInverter Ancillary:Cogeneration:Electricity [J]
+
+ Meters for 259,Whole Building:Facility Total Purchased Electricity Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+  OnMeter=General:Cogeneration:ElectricityPurchased [J]
+
+ Meters for 308,Whole Building:Facility Total Surplus Electricity Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+  OnMeter=General:Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 357,Whole Building:Facility Net Purchased Electricity Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+  OnMeter=General:Cogeneration:ElectricityNet [J]
+
+ Meters for 407,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 432,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 433,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  GROUND_ROOM:Zone Air System Sensible Heating Energy
+  GROUND_ROOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  GROUND_ROOM:Zone Air System Sensible Heating Energy
+  GROUND_ROOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:GROUND_ROOM [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  GROUND_ROOM:Zone Air System Sensible Heating Energy
+  GROUND_ROOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  GROUND_ROOM:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:GROUND_ROOM [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  GROUND_ROOM:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  GROUND_ROOM:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:GROUND_ROOM [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  GROUND_ROOM:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  GROUND_ROOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:GROUND_ROOM [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  GROUND_ROOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  GROUND_ROOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:GROUND_ROOM [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  GROUND_ROOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=ElectricityProduced:Facility [J], ResourceType=ElectricityProduced, contents are:
+  PHOTOVOLTAIC ARRAY 1..SHADE_E108C1EA:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 2..SHADE_18B99AAA:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 3..SHADE_E0B10E4D:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 4..SHADE_D13816DA:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 5..SHADE_251C2D75:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 6..SHADE_CF675B23:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 7..SHADE_9C105FDD:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 8..SHADE_999F5B15:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 9..SHADE_F4324793:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 10..SHADE_B756CBEA:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 11..SHADE_D3C01AD7:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 12..SHADE_B40D316F:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 13..SHADE_B791807B:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 14..SHADE_13F81056:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 15..SHADE_74618145:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 16..SHADE_0EDE36BD:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 17..SHADE_823B8612:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 18..SHADE_1BFF9B40:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 19..SHADE_434E0662:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 20..SHADE_5855C41A:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC INVERTER:Inverter Conversion Loss Decrement Energy
+
+ For Meter=ElectricityProduced:Plant [J], ResourceType=ElectricityProduced, Group=Plant, contents are:
+  PHOTOVOLTAIC ARRAY 1..SHADE_E108C1EA:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 2..SHADE_18B99AAA:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 3..SHADE_E0B10E4D:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 4..SHADE_D13816DA:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 5..SHADE_251C2D75:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 6..SHADE_CF675B23:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 7..SHADE_9C105FDD:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 8..SHADE_999F5B15:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 9..SHADE_F4324793:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 10..SHADE_B756CBEA:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 11..SHADE_D3C01AD7:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 12..SHADE_B40D316F:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 13..SHADE_B791807B:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 14..SHADE_13F81056:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 15..SHADE_74618145:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 16..SHADE_0EDE36BD:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 17..SHADE_823B8612:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 18..SHADE_1BFF9B40:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 19..SHADE_434E0662:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 20..SHADE_5855C41A:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC INVERTER:Inverter Conversion Loss Decrement Energy
+
+ For Meter=Photovoltaic:ElectricityProduced [J], ResourceType=ElectricityProduced, EndUse=Photovoltaic, contents are:
+  PHOTOVOLTAIC ARRAY 1..SHADE_E108C1EA:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 2..SHADE_18B99AAA:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 3..SHADE_E0B10E4D:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 4..SHADE_D13816DA:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 5..SHADE_251C2D75:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 6..SHADE_CF675B23:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 7..SHADE_9C105FDD:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 8..SHADE_999F5B15:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 9..SHADE_F4324793:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 10..SHADE_B756CBEA:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 11..SHADE_D3C01AD7:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 12..SHADE_B40D316F:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 13..SHADE_B791807B:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 14..SHADE_13F81056:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 15..SHADE_74618145:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 16..SHADE_0EDE36BD:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 17..SHADE_823B8612:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 18..SHADE_1BFF9B40:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 19..SHADE_434E0662:Generator Produced DC Electricity Energy
+  PHOTOVOLTAIC ARRAY 20..SHADE_5855C41A:Generator Produced DC Electricity Energy
+
+ For Meter=PowerConversion:ElectricityProduced [J], ResourceType=ElectricityProduced, EndUse=PowerConversion, contents are:
+  PHOTOVOLTAIC INVERTER:Inverter Conversion Loss Decrement Energy
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  PHOTOVOLTAIC INVERTER:Inverter Ancillary AC Electricity Energy
+
+ For Meter=Electricity:Plant [J], ResourceType=Electricity, Group=Plant, contents are:
+  PHOTOVOLTAIC INVERTER:Inverter Ancillary AC Electricity Energy
+
+ For Meter=Cogeneration:Electricity [J], ResourceType=Electricity, EndUse=Cogeneration, contents are:
+  PHOTOVOLTAIC INVERTER:Inverter Ancillary AC Electricity Energy
+
+ For Meter=DCtoACInverter Ancillary:Cogeneration:Electricity [J], ResourceType=Electricity, EndUse=Cogeneration, contents are:
+  PHOTOVOLTAIC INVERTER:Inverter Ancillary AC Electricity Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass

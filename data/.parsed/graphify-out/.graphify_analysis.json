@@ -1,0 +1,259 @@
+{
+  "communities": {
+    "0": [
+      "assignments_1st_assignment_1",
+      "citygml_format",
+      "energyplus_tool",
+      "gh_summary_hb_gen_loads",
+      "gh_summary_hb_pv_properties",
+      "gh_summary_hb_shade",
+      "gh_summary_lb_download_weather",
+      "gh_summary_prototyp_b1",
+      "papers_r1_malhotra_2022"
+    ],
+    "1": [
+      "dicon_ontology",
+      "papers_r10_rafid_2025",
+      "papers_r10_simulation_as_a_decision_support_tool_in_construction_project_management_simphony_dynamic_as_a_service_rafid_et_al_2025_graphdb",
+      "papers_r10_simulation_as_a_decision_support_tool_in_construction_project_management_simphony_dynamic_as_a_service_rafid_et_al_2025_repository_microservice",
+      "papers_r10_simulation_as_a_decision_support_tool_in_construction_project_management_simphony_dynamic_as_a_service_rafid_et_al_2025_simphonydynamic_aas",
+      "papers_r10_simulation_as_a_decision_support_tool_in_construction_project_management_simphony_dynamic_as_a_service_rafid_et_al_2025_simulation_microservice"
+    ],
+    "2": [
+      "papers_r3_ansys_fluent",
+      "papers_r3_contam",
+      "papers_r3_gds_platform",
+      "papers_r3_rhino_grasshopper",
+      "papers_r4_ladybug",
+      "papers_r4_parametric_split_louver"
+    ],
+    "3": [
+      "papers_r9_digital_twin_representation_of_socio_technical_systems_through_a_distributed_co_simulation_approach_for_crisis_management_martini_et_al_2025_emergency_response_simulation",
+      "papers_r9_digital_twin_representation_of_socio_technical_systems_through_a_distributed_co_simulation_approach_for_crisis_management_martini_et_al_2025_epanet",
+      "papers_r9_digital_twin_representation_of_socio_technical_systems_through_a_distributed_co_simulation_approach_for_crisis_management_martini_et_al_2025_frost_api",
+      "papers_r9_digital_twin_representation_of_socio_technical_systems_through_a_distributed_co_simulation_approach_for_crisis_management_martini_et_al_2025_modular_co_simulation_architecture",
+      "papers_r9_digital_twin_representation_of_socio_technical_systems_through_a_distributed_co_simulation_approach_for_crisis_management_martini_et_al_2025_ns3",
+      "papers_r9_digital_twin_representation_of_socio_technical_systems_through_a_distributed_co_simulation_approach_for_crisis_management_martini_et_al_2025_pandapower"
+    ],
+    "4": [
+      "papers_r4_energyplus",
+      "papers_r4_honeybee",
+      "papers_r4_radiance",
+      "papers_r5_nsga_ii",
+      "papers_r5_ob_predictive_model"
+    ],
+    "5": [
+      "papers_r7_predictive_modeling_of_building_energy_consumption_and_thermal_comfort_for_decarbonization_in_construction_and_retrofitting_algburi_et_al_2025_energyplus",
+      "papers_r7_predictive_modeling_of_building_energy_consumption_and_thermal_comfort_for_decarbonization_in_construction_and_retrofitting_algburi_et_al_2025_eqtc",
+      "papers_r7_predictive_modeling_of_building_energy_consumption_and_thermal_comfort_for_decarbonization_in_construction_and_retrofitting_algburi_et_al_2025_mlr_interaction_terms",
+      "papers_r7_predictive_modeling_of_building_energy_consumption_and_thermal_comfort_for_decarbonization_in_construction_and_retrofitting_algburi_et_al_2025_monte_carlo",
+      "papers_r7_predictive_modeling_of_building_energy_consumption_and_thermal_comfort_for_decarbonization_in_construction_and_retrofitting_algburi_et_al_2025_predictive_modeling_framework"
+    ],
+    "6": [
+      "papers_r3_green_design_studio_ansys_fluent",
+      "papers_r3_green_design_studio_contam",
+      "papers_r3_green_design_studio_gds",
+      "papers_r3_green_design_studio_rhino_grasshopper"
+    ],
+    "7": [
+      "papers_r8_how_close_are_urban_scale_building_simulations_to_measured_data_bass_et_al_2022_autobem",
+      "papers_r8_how_close_are_urban_scale_building_simulations_to_measured_data_bass_et_al_2022_energyplus",
+      "papers_r8_how_close_are_urban_scale_building_simulations_to_measured_data_bass_et_al_2022_google_footprints",
+      "papers_r8_how_close_are_urban_scale_building_simulations_to_measured_data_bass_et_al_2022_openstudio"
+    ],
+    "8": [
+      "hensen_lamberts_2011",
+      "lectrues_3_building_performance_simulation_part_1_energy_bps",
+      "mahdavi_2020"
+    ],
+    "9": [
+      "lectrues_1_teaching_philosophy_goal",
+      "lectrues_1_teaching_philosophy_nayab_bushra",
+      "lectrues_1_teaching_philosophy_perusall"
+    ],
+    "10": [
+      "papers_r6_a_computational_approach_to_assess_the_effects_of_ecological_building_envelopes_on_outdoor_thermal_comfort_mosca_et_al_2025_1_ecolopes",
+      "papers_r6_a_computational_approach_to_assess_the_effects_of_ecological_building_envelopes_on_outdoor_thermal_comfort_mosca_et_al_2025_1_envi_met",
+      "papers_r6_a_computational_approach_to_assess_the_effects_of_ecological_building_envelopes_on_outdoor_thermal_comfort_mosca_et_al_2025_1_ladybug_tools"
+    ],
+    "11": [
+      "bushra_hartmann_2024",
+      "lectrues_5_quantification_of_building_performance_indicators_energy_solar_daylight_udi"
+    ],
+    "12": [
+      "lectrues_5_quantification_of_building_performance_indicators_energy_solar_daylight_da",
+      "lectrues_5_quantification_of_building_performance_indicators_energy_solar_daylight_sda"
+    ],
+    "13": [
+      "papers_r2_building_energy_simulation_bes",
+      "papers_r2_building_energy_simulation_lod_framework"
+    ],
+    "14": [
+      "lectrues_1_introduction"
+    ],
+    "15": [
+      "lectrues_1_project_introduction"
+    ],
+    "16": [
+      "lectrues_1_teaching_philosophy_begum_aktas"
+    ],
+    "17": [
+      "lectrues_1_teaching_philosophy_moodle"
+    ],
+    "18": [
+      "lectrues_1_teaching_philosophy_systems_thinking"
+    ],
+    "19": [
+      "lectrues_2_theoretical_foundations"
+    ],
+    "20": [
+      "lectrues_3_building_performance_simulation_part_1_energy_eui"
+    ],
+    "21": [
+      "lectrues_3_building_performance_simulation_part_1_energy_heat_conduction"
+    ],
+    "22": [
+      "lectrues_5_quantification_of_building_performance_indicators_energy_solar_daylight_ghi"
+    ]
+  },
+  "cohesion": {
+    "0": 0.2222222222222222,
+    "1": 0.3333333333333333,
+    "2": 0.3333333333333333,
+    "3": 0.3333333333333333,
+    "4": 0.4,
+    "5": 0.4,
+    "6": 0.5,
+    "7": 0.5,
+    "8": 0.6666666666666666,
+    "9": 0.6666666666666666,
+    "10": 0.6666666666666666,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0
+  },
+  "gods": [
+    {
+      "id": "gh_summary_prototyp_b1",
+      "label": "prototyp_b1.ghx",
+      "degree": 5
+    },
+    {
+      "id": "papers_r9_digital_twin_representation_of_socio_technical_systems_through_a_distributed_co_simulation_approach_for_crisis_management_martini_et_al_2025_modular_co_simulation_architecture",
+      "label": "Modular Co-Simulation Architecture",
+      "degree": 5
+    },
+    {
+      "id": "papers_r10_simulation_as_a_decision_support_tool_in_construction_project_management_simphony_dynamic_as_a_service_rafid_et_al_2025_simphonydynamic_aas",
+      "label": "SimphonyDynamic-as-a-Service (SimphonyDynamicaaS)",
+      "degree": 3
+    },
+    {
+      "id": "papers_r3_green_design_studio_gds",
+      "label": "Green Design Studio (GDS)",
+      "degree": 3
+    },
+    {
+      "id": "papers_r3_gds_platform",
+      "label": "Green Design Studio (GDS) Platform",
+      "degree": 3
+    },
+    {
+      "id": "papers_r4_parametric_split_louver",
+      "label": "Parametric Split Louver System",
+      "degree": 3
+    },
+    {
+      "id": "papers_r4_honeybee",
+      "label": "Honeybee",
+      "degree": 3
+    },
+    {
+      "id": "papers_r7_predictive_modeling_of_building_energy_consumption_and_thermal_comfort_for_decarbonization_in_construction_and_retrofitting_algburi_et_al_2025_predictive_modeling_framework",
+      "label": "Predictive Modeling Framework",
+      "degree": 3
+    },
+    {
+      "id": "papers_r8_how_close_are_urban_scale_building_simulations_to_measured_data_bass_et_al_2022_autobem",
+      "label": "AutoBEM",
+      "degree": 3
+    },
+    {
+      "id": "papers_r10_simulation_as_a_decision_support_tool_in_construction_project_management_simphony_dynamic_as_a_service_rafid_et_al_2025_repository_microservice",
+      "label": "Repository Microservice",
+      "degree": 2
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Simulation in AEC Project Assignment - I",
+      "target": "prototyp_b1.ghx",
+      "source_files": [
+        "assignments/1st Assignment (1).md",
+        "gh_summary.md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; peripheral node `Simulation in AEC Project Assignment - I` unexpectedly reaches hub `prototyp_b1.ghx`"
+    },
+    {
+      "source": "HB Generation Loads",
+      "target": "EnergyPlus",
+      "source_files": [
+        "gh_summary.md",
+        "papers/R1 - Information modelling for urban building energy simulation-A taxonomic review (Malhotra et al., 2022) (1).md"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "Parametric Split Louver System",
+      "target": "Rhino-Grasshopper",
+      "source_files": [
+        "papers/R4 - Optimizing daylighting performance and energy efficiency through the integration of parametric split louvers in office buildings (Alsukkar et al., 2025).md",
+        "papers/R3 - A high-performance multi-scale modular-based green design studio platform for building and urban environmental quality and energy simulations (Li et al., 2025).md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "Occupant Behaviour (OB) Predictive Model",
+      "target": "EnergyPlus",
+      "source_files": [
+        "papers/R5 - Thermal comfort and perceived indoor air quality optimization with respect to occupant behaviour in naturally ventilated school buildings (Neves et al., 2025) (1).md",
+        "papers/R4 - Optimizing daylighting performance and energy efficiency through the integration of parametric split louvers in office buildings (Alsukkar et al., 2025).md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Parametric Split Louver System` connect `Parametric Design and CFD` to `Building Performance Optimization`?",
+      "why": "High betweenness centrality (0.013) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `GraphDB`, `Simulation Microservice`, `ENVI-met` to the rest of the system?",
+      "why": "48 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `Honeybee` connect `Building Performance Optimization` to `Parametric Design and CFD`?",
+      "why": "High betweenness centrality (0.012) - this node is a cross-community bridge."
+    }
+  ]
+}

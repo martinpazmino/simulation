@@ -1,0 +1,2474 @@
+Shadowing Combinations
+..Solar Distribution=FullExteriorWithReflectionsFromExteriorSurfaces
+..In the following, only the first 10 reference surfaces will be shown.
+..But all surfaces are used in the calculations.
+==================================
+Surface=SHADE_1F29CAF2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_1F29CAF2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_56C2C2DD
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=SHADE_251C2D75
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_C2A2F2C9
+..Surface=Mir-SHADE_12317B08
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_57E3F313 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_57E3F313 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_56C2C2DD
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=SHADE_251C2D75
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_C2A2F2C9
+..Surface=Mir-SHADE_12317B08
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_21E6FE8F is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_21E6FE8F is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_56C2C2DD
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=SHADE_251C2D75
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_C2A2F2C9
+..Surface=Mir-SHADE_12317B08
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_77D664D8 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_77D664D8 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=49
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_12317B08
+..Surface=Mir-SHADE_F1200898
+..Surface=Mir-SHADE_D864CD42
+..Surface=Mir-SHADE_A51E69B2
+..Surface=Mir-SHADE_9896813A
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_FF080637 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=65
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_12317B08
+..Surface=Mir-SHADE_F1200898
+..Surface=SHADE_5C74D878
+..Surface=Mir-SHADE_D864CD42
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_FF080637 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_E108C1EA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=81
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=SHADE_251C2D75
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_12317B08
+..Surface=Mir-SHADE_F1200898
+..Surface=SHADE_5C74D878
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_E108C1EA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_521D048C is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=121
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_521D048C is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_9B3E4A02 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_9B3E4A02 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_5C36B18C is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_5C36B18C is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_56C2C2DD
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=SHADE_251C2D75
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_C2A2F2C9
+..Surface=Mir-SHADE_12317B08
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_A5A574A9 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_A5A574A9 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_56C2C2DD
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=SHADE_251C2D75
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_C2A2F2C9
+..Surface=Mir-SHADE_12317B08
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_030ADD62 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_030ADD62 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_56C2C2DD
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=SHADE_251C2D75
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_C2A2F2C9
+..Surface=Mir-SHADE_12317B08
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_11F11149 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_11F11149 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=49
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_12317B08
+..Surface=Mir-SHADE_F1200898
+..Surface=Mir-SHADE_D864CD42
+..Surface=Mir-SHADE_A51E69B2
+..Surface=Mir-SHADE_9896813A
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_2DF02684 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=65
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_12317B08
+..Surface=Mir-SHADE_F1200898
+..Surface=SHADE_5C74D878
+..Surface=Mir-SHADE_D864CD42
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_2DF02684 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_18B99AAA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=81
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=SHADE_251C2D75
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_12317B08
+..Surface=Mir-SHADE_F1200898
+..Surface=SHADE_5C74D878
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_18B99AAA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_709903E9 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_709903E9 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_56C2C2DD
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=SHADE_251C2D75
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_C2A2F2C9
+..Surface=Mir-SHADE_12317B08
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_2D38B2EC is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_2D38B2EC is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_56C2C2DD
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=SHADE_251C2D75
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_C2A2F2C9
+..Surface=Mir-SHADE_12317B08
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_B5DFB87F is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_B5DFB87F is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_56C2C2DD
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=SHADE_251C2D75
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_C2A2F2C9
+..Surface=Mir-SHADE_12317B08
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_50BFEAD5 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_50BFEAD5 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=49
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_12317B08
+..Surface=Mir-SHADE_F1200898
+..Surface=Mir-SHADE_D864CD42
+..Surface=Mir-SHADE_A51E69B2
+..Surface=Mir-SHADE_9896813A
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_204A2DDC is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=65
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_12317B08
+..Surface=Mir-SHADE_F1200898
+..Surface=SHADE_5C74D878
+..Surface=Mir-SHADE_D864CD42
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_204A2DDC is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_E0B10E4D is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=81
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=SHADE_251C2D75
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_12317B08
+..Surface=Mir-SHADE_F1200898
+..Surface=SHADE_5C74D878
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_E0B10E4D is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_0A9516B3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_0A9516B3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_56C2C2DD
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=SHADE_251C2D75
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_C2A2F2C9
+..Surface=Mir-SHADE_12317B08
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_9115441A is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_9115441A is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_56C2C2DD
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=SHADE_251C2D75
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_C2A2F2C9
+..Surface=Mir-SHADE_12317B08
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_7496E022 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_7496E022 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_56C2C2DD
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=SHADE_251C2D75
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_C2A2F2C9
+..Surface=Mir-SHADE_12317B08
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_E6944F53 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_E6944F53 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=49
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_12317B08
+..Surface=Mir-SHADE_F1200898
+..Surface=Mir-SHADE_D864CD42
+..Surface=Mir-SHADE_A51E69B2
+..Surface=Mir-SHADE_9896813A
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_75E40B14 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=65
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_12317B08
+..Surface=Mir-SHADE_F1200898
+..Surface=SHADE_5C74D878
+..Surface=Mir-SHADE_D864CD42
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_75E40B14 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_D13816DA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=81
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_259ED62D
+..Surface=Mir-SHADE_C5FE2E23
+..Surface=Mir-SHADE_DB59306D
+..Surface=SHADE_437B3054
+..Surface=SHADE_251C2D75
+..Surface=Mir-SHADE_051B60A3
+..Surface=Mir-SHADE_12317B08
+..Surface=Mir-SHADE_F1200898
+..Surface=SHADE_5C74D878
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_D13816DA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_259ED62D is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_259ED62D is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_56C2C2DD is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_56C2C2DD is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_C5FE2E23 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_C5FE2E23 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_DB59306D is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_DB59306D is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=43
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=Mir-SHADE_709903E9
+..Surface=Mir-SHADE_B5DFB87F
+..Surface=Mir-SHADE_50BFEAD5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_437B3054 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=57
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+..Surface=Mir-SHADE_709903E9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_437B3054 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_251C2D75 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=71
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_251C2D75 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_051B60A3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_051B60A3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_C2A2F2C9 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_C2A2F2C9 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_12317B08 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_12317B08 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_F1200898 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_F1200898 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=43
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=Mir-SHADE_709903E9
+..Surface=Mir-SHADE_B5DFB87F
+..Surface=Mir-SHADE_50BFEAD5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_5C74D878 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=57
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+..Surface=Mir-SHADE_709903E9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_5C74D878 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_CF675B23 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=71
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_CF675B23 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_D864CD42 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_D864CD42 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_C275FC27 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_C275FC27 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_A51E69B2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_A51E69B2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_9896813A is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_9896813A is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=43
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=Mir-SHADE_709903E9
+..Surface=Mir-SHADE_B5DFB87F
+..Surface=Mir-SHADE_50BFEAD5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_2B380F2A is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=57
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+..Surface=Mir-SHADE_709903E9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_2B380F2A is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_9C105FDD is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=71
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_9C105FDD is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_42A88F6C is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_42A88F6C is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_C77B3C2C is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_C77B3C2C is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_233E5F4F is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_233E5F4F is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_763644F0 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_763644F0 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=43
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=Mir-SHADE_709903E9
+..Surface=Mir-SHADE_B5DFB87F
+..Surface=Mir-SHADE_50BFEAD5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_A14FB8E2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=57
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+..Surface=Mir-SHADE_709903E9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_A14FB8E2 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_999F5B15 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=71
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_999F5B15 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_17C59746 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_17C59746 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_3DCCB974 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_3DCCB974 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_6BFCAB26 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_6BFCAB26 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_8BD0A36F is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_8BD0A36F is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=43
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=Mir-SHADE_709903E9
+..Surface=Mir-SHADE_B5DFB87F
+..Surface=Mir-SHADE_50BFEAD5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_4D29CCA9 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=57
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+..Surface=Mir-SHADE_709903E9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_4D29CCA9 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_F4324793 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=71
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_F4324793 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_D635B765 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_D635B765 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_B33C1DBA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_B33C1DBA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_F47C2626 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_F47C2626 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_6BD93A8F is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_6BD93A8F is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=43
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=Mir-SHADE_709903E9
+..Surface=Mir-SHADE_B5DFB87F
+..Surface=Mir-SHADE_50BFEAD5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_CE5B0D38 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=57
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+..Surface=Mir-SHADE_709903E9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_CE5B0D38 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_B756CBEA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=71
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_B756CBEA is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_E69C4385 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_E69C4385 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_6861B003 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_6861B003 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_E1DA1074 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_E1DA1074 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_8B7AFD0F is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_8B7AFD0F is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=49
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=Mir-SHADE_709903E9
+..Surface=Mir-SHADE_B5DFB87F
+..Surface=Mir-SHADE_50BFEAD5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_5B57F8B1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=65
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+..Surface=Mir-SHADE_709903E9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_5B57F8B1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_D3C01AD7 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=81
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_D3C01AD7 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_DF0F03DE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_DF0F03DE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_E14425C3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_E14425C3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_D1F9B9F1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_D1F9B9F1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_577673BB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_577673BB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=49
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=Mir-SHADE_709903E9
+..Surface=Mir-SHADE_B5DFB87F
+..Surface=Mir-SHADE_50BFEAD5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_FD85639E is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=65
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+..Surface=Mir-SHADE_709903E9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_FD85639E is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_B40D316F is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=81
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_B40D316F is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_9DA8D405 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_9DA8D405 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_4EB10E37 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_4EB10E37 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_76D7DFC0 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_76D7DFC0 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_88E42441 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_88E42441 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=49
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=Mir-SHADE_709903E9
+..Surface=Mir-SHADE_B5DFB87F
+..Surface=Mir-SHADE_50BFEAD5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_93AA9855 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=65
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+..Surface=Mir-SHADE_709903E9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_93AA9855 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_B791807B is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=81
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_B791807B is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_0ACCDF9E is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_0ACCDF9E is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_4D1E8E49 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_4D1E8E49 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_D7F8E100 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_D7F8E100 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=97
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_D1E30F3C is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_D1E30F3C is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=49
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=Mir-SHADE_709903E9
+..Surface=Mir-SHADE_B5DFB87F
+..Surface=Mir-SHADE_50BFEAD5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_15AC69E7 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=65
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+..Surface=Mir-SHADE_709903E9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_15AC69E7 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_13F81056 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=81
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_13F81056 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_A5090F4A is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_A5090F4A is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_BF8240AF is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_BF8240AF is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_568700AD is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_568700AD is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_73E17CF8 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_73E17CF8 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=43
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=Mir-SHADE_709903E9
+..Surface=Mir-SHADE_B5DFB87F
+..Surface=Mir-SHADE_50BFEAD5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_9B449BB7 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=57
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+..Surface=Mir-SHADE_709903E9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_9B449BB7 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_74618145 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=71
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_74618145 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_5EF6CDAF is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_5EF6CDAF is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_195FFEA0 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_195FFEA0 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_0A13484A is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_0A13484A is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_6236557A is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_6236557A is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=43
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=Mir-SHADE_709903E9
+..Surface=Mir-SHADE_B5DFB87F
+..Surface=Mir-SHADE_50BFEAD5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_4ADEA119 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=57
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+..Surface=Mir-SHADE_709903E9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_4ADEA119 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_0EDE36BD is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=71
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_0EDE36BD is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_9A859492 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_9A859492 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_8E27A86D is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_8E27A86D is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_C20A83D1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_C20A83D1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_8B20BB87 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_8B20BB87 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=43
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=Mir-SHADE_709903E9
+..Surface=Mir-SHADE_B5DFB87F
+..Surface=Mir-SHADE_50BFEAD5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_35901EF8 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=57
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+..Surface=Mir-SHADE_709903E9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_35901EF8 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_823B8612 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=71
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_823B8612 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_D6342DE0 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_D6342DE0 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_323AF6C5 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_323AF6C5 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_C2527852 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_C2527852 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_71BC7E88 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_71BC7E88 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=43
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=Mir-SHADE_709903E9
+..Surface=Mir-SHADE_B5DFB87F
+..Surface=Mir-SHADE_50BFEAD5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_04288551 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=57
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+..Surface=Mir-SHADE_709903E9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_04288551 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_1BFF9B40 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=71
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_1BFF9B40 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_780AC010 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_780AC010 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_9049D858 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_9049D858 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_2D45B964 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_2D45B964 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_B875C0EB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_B875C0EB is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=43
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=Mir-SHADE_709903E9
+..Surface=Mir-SHADE_B5DFB87F
+..Surface=Mir-SHADE_50BFEAD5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_FB719BFE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=57
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+..Surface=Mir-SHADE_709903E9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_FB719BFE is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_434E0662 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=71
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_434E0662 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_7B56E121 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_7B56E121 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_BAD76D18 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_BAD76D18 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_01DBB4B3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_01DBB4B3 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=85
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_FE2B7C0B is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_FE2B7C0B is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=43
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=Mir-SHADE_709903E9
+..Surface=Mir-SHADE_B5DFB87F
+..Surface=Mir-SHADE_50BFEAD5
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_0CEE5101 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=57
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+..Surface=Mir-SHADE_709903E9
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_0CEE5101 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=SHADE_5855C41A is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=71
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_030ADD62
+..Surface=Mir-SHADE_11F11149
+..Surface=SHADE_2DF02684
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-SHADE_5855C41A is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=GROUND_ROOM_FRONT is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=GROUND_ROOM_RIGHT is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=GROUND_ROOM_BACK is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=GROUND_ROOM_LEFT is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=GROUND_ROOM_BOTTOM is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=GROUND_ROOM_TOP is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=121
+..Surface=Mir-SHADE_1F29CAF2
+..Surface=Mir-SHADE_57E3F313
+..Surface=Mir-SHADE_21E6FE8F
+..Surface=Mir-SHADE_77D664D8
+..Surface=SHADE_FF080637
+..Surface=SHADE_E108C1EA
+..Surface=Mir-SHADE_9B3E4A02
+..Surface=Mir-SHADE_5C36B18C
+..Surface=Mir-SHADE_A5A574A9
+..Surface=Mir-SHADE_030ADD62
+Number of back surfaces=0
+Number of receiving sub surfaces=0

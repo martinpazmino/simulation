@@ -1,0 +1,12 @@
+# Copyrighted source documents (papers, lecture slides, assignment) - not redistributed
+data/papers/
+data/lectrues/
+data/assignments/
+# Full-text Markdown converted from those PDFs
+data/.parsed/papers/
+data/.parsed/lectrues/
+data/.parsed/assignments/
+data/.parsed/**/graphify-out/cache/
+# Local logs
+data/.ghx/*.txt
+__pycache__/
